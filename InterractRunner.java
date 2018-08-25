@@ -16,7 +16,14 @@ public class InterractRunner {
 				String first = reader.next();
 				System.out.println("Enter second arg: ");
 				String second = reader.next();
-				calc.add(Integer.valueOf(first), Integer.valueOf(second));
+				System.out.println("Please enter operation(+,-,*,/): "
+				String operation = reader.next();
+				if (operation.equals("+") then
+					calc.add(Double.valueOf(first), Double.valueOf(second));
+				else if (operation.equals("-") then
+					calc.minus(Double.valueOf(first), Double.valueOf(second));
+				else if (operation.equals("*") then
+					calc.mult(Double.valueOf(first), Double.valueOf(second));
 				System.out.println("Result: " + calc.getResult());
 				calc.cleanResult();
 				System.out.println("Exit: yes/no ");

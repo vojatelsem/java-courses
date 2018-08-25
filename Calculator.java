@@ -32,8 +32,8 @@ public class Calculator {
 		@param params Аргументы вычитания
 	*/
 	public void minus (double ... params) {
-		for (Double param : params) {
-			this.result -= param;
+		for (int i = params.length - 1; i >= 0 ; i--){
+			this.result -= params[i];
 		}
 	}
 	
